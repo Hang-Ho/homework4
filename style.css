@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    color: rgb(55, 55, 153);
+}
+body{
+    background-color: lavender;
+    font-family: Times;
+    font-size: 20px;
+}
+
+#view{
+    margin-top: 0px;
+    float: left;
+    color: rgb(55, 55, 153);
+}
+#time{
+    margin-top: 0px;
+    float: right;
+    color: rgb(55, 55, 153);
+    margin-right: 15px;
+}
+.finish-box{
+    display: none;
+}
+.highscore-box{
+    display: none;
+}
+#questions{
+    font-size: 30px;
+}
+#start-btn{
+    background-color: rgb(35, 35, 112);
+    color: lavender;
+    height: 50px;
+    width: 110px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    cursor: pointer;
+    background-color: rgb(35, 35, 112);
+    color: lavender;
+    margin-top: 5px;
+    
+}
